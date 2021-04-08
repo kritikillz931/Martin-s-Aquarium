@@ -1,13 +1,33 @@
+header{
+    text-align: center;
+}
+
+
 .fishes {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .fish{
-    max-width: 20%;
+    max-width: 30%;
+    margin: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ 
 }
 
 .fish__images{
-    max-width: 100%;
-
+    max-height: 10rem;
+    overflow: hidden;
 }
 
+
+
+body{ 
+    background-image: linear-gradient(rgb(143, 245, 236), rgb(0, 103, 110));
+    min-height: 1000px;
+    margin-top: -20px;
+  }
+
+  
