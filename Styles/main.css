@@ -1,6 +1,13 @@
-.fish__images {
+.fishes {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+}
+
+.fish{
+    max-width: 20%;
+}
+
+.fish__images{
+    max-width: 100%;
+
 }
 
