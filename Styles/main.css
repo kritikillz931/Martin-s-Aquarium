@@ -1,20 +1,62 @@
 header{
     text-align: center;
-    color: rgb(17, 100, 133);
+    color: rgb(9, 116, 158);
+    /* height: 1rem; */
 }
 
+.container{
+    display: flex;
+    margin: auto 300px;
+}
+
+.flex-container-left {
+    flex: 3;
+    /* margin: 300px; */
+}
+
+.tips {
+}
+
+.tips__text {
+    background-color: rgb(17, 100, 133);
+    color: white;
+    flex: 1;
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 1000px;
+    
+}
+
+.tip__header {
+    text-align: center; 
+    color: rgb(17, 100, 133);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 30px; 
+    margin-top: 5px;
+    padding-bottom: -5px;
+}
 
 .fishes {
     display: flex;
-    flex-wrap: wrap;
-    margin:auto 300px ;
 
+    justify-content:space-evenly
+}
+
+aside {
+    color: white;
+    
+    /* margin: 300px; */
+}
+
+aside ul {
+    /* padding-top: 100px; */
 }
 
 .fish{
     max-width: 30%;
     margin: 5px;
-    
+
+    flex-wrap: wrap;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(17, 100, 133);
@@ -31,12 +73,21 @@ header{
     font-size: 30px;
 }
 
+.quote__text {
+
+    color: white;
+    height: 100rem;
+    text-align: left;
+    justify-content: left;
+    font-family: sans-serif;
+    font-style: italic;
+}
 
 
 body{ 
     background-image: linear-gradient(rgb(143, 245, 236), rgb(0, 103, 110));
-    min-height: 2000px;
-    margin-top: -20px;
+    min-height: 1500px;
+    /* margin-top: -20px;  */
   }
 
   
